@@ -60,4 +60,5 @@ for line in incorrect_lines:
     incorrect_mid_sum += sorted_line[mid]
 
 print(incorrect_mid_sum)
-    
+
+file.close()

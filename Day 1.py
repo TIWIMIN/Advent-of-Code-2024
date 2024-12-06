@@ -31,3 +31,5 @@ for i in range(len(column_1)):
     sim_score += column_1[i] * hash_map[column_1[i]]
 
 print("sim_score:", sim_score)
+
+file.close()
